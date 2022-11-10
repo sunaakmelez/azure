@@ -7,7 +7,9 @@ trigger:
 - main
 
 pool:
-  vmImage: macOS-latest
+  name: pool
+  agent: agent
+
 
 steps:
 - task: Maven@3
